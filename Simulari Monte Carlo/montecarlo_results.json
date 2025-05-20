@@ -1,0 +1,47 @@
+{
+    "simulation_parameters": {
+        "initial_investment": 100000,
+        "investment_horizon_years": 5,
+        "num_simulations": 100000
+    },
+    "portfolio_composition": {
+        "Titluri de stat": 0.52,
+        "Wise": 0.38,
+        "ETH": 0.1
+    },
+    "asset_assumptions": {
+        "expected_annual_returns": {
+            "Titluri de stat": 0.072,
+            "Wise": 0.48,
+            "ETH": 0.4018
+        },
+        "annual_volatilities": {
+            "Titluri de stat": 0.0,
+            "Wise": 0.4143,
+            "ETH": 0.6624
+        },
+        "correlation_matrix": [
+            [
+                1.0,
+                0.0,
+                0.0
+            ],
+            [
+                0.0,
+                1.0,
+                0.14
+            ],
+            [
+                0.0,
+                0.14,
+                1.0
+            ]
+        ]
+    },
+    "projected_values": {
+        "mean": 230059.44617923358,
+        "median": 230135.20260903478,
+        "5th_percentile": 163929.58069389823,
+        "95th_percentile": 296186.587319485
+    }
+}
